@@ -1,1 +1,18 @@
-<p>autocomplete-select works!</p>
+<mat-form-field>
+  <input
+    type="text"
+    placeholder="Enter Location"
+    [formControl]="selectFormContorol"
+    matInput
+    [matAutocomplete]="auto"
+  />
+  <mat-autocomplete #auto="matAutocomplete">
+    <mat-option
+      *ngFor="let option of filteredOptions | async"
+      [value]="option"
+      (onSelectionChange)="onSelFunc(option)"
+    >
+      {{ option }}
+    </mat-option>
+  </mat-autocomplete>
+</mat-form-field>
