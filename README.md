@@ -8,6 +8,7 @@ This code is a customized sample for the stand alone component from the blog bel
 
 - https://www.itsolutionstuff.com/post/angular-material-input-autocomplete-exampleexample.html
 - https://www.itsolutionstuff.com/post/angular-material-autocomplete-select-option-event-exampleexample.html
+- https://github.com/vguleaev/Angular-Material-Autocomplete
 
 ## Development server
 
